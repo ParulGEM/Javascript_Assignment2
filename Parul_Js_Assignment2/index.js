@@ -77,7 +77,7 @@ function saveEmployee() {
   );
 
   if (findEmp) {
-    alert("Data entered already exits!");
+    alert("Data entered already exist!");
   } else {
     employees.push(newEmployee);
 
